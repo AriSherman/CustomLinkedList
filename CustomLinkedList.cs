@@ -12,11 +12,9 @@ namespace CustomLinkedList
         internal Node<T> First;
         internal Node<T> Last;
         private Node<T> Current;
-        private int count = 0;
 
         public CustomLinkedList()
         {
-            count++;
         }
 
         public void Add(T value)
@@ -37,16 +35,6 @@ namespace CustomLinkedList
 
             }
         }
-        //Node<T> newNode = new Node<T>();
-        //newNode.Value = value;
-        //this.First = newNode;
-        //this.Current = newNode;
-
-        //Node<T> newNode1 = new Node<T>();
-        //newNode1.Value = value;
-        //newNode1.Previous = this.Last;
-        //Last.Next = newNode1;
-        //this.Last = newNode1;
 
 
         public IEnumerator GetEnumerator()
