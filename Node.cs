@@ -17,6 +17,4 @@ namespace CustomLinkedList
             Value = value;
         }
     };
-
-    //public class Node{}
 }
